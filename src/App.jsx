@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import Pokecard from './components/Pokecard';
 
 function App() {
   const [mon, setMon] = useState([]);
@@ -20,9 +21,11 @@ function App() {
   return (
     <>
       <div className='container'>
-        {mon.map((pokemon) => {
+        {mon.map((pokemon, i) => {
           return (
-            <div>{pokemon.name}</div>
+            <div>
+              <Pokecard name={pokemon.name} id={i + 1} />
+            </div>
           )
         })}
       </div>
