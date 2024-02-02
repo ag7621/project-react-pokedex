@@ -3,6 +3,7 @@ import React from "react";
 function Pokeinfo() {
     return (
         <>
+            <p>#001</p>
             <h3>Charmander</h3>
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="" />
             <div className="abilities">

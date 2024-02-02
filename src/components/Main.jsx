@@ -12,6 +12,13 @@ function Main() {
                     <Card />
                     <Card />
                     <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
                 <div className="right-content">
                     <Pokeinfo />

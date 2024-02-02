@@ -45,4 +45,41 @@ body {
 
 .container {
     display: flex;
+    gap: 0.5rem;
+    background-color: grey;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 0.5rem;
+    background-color: darkred;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    width: 350px;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    background-color: darkslategray;
+    border-radius: 15px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__info p {
+    align-self: start;
+}
+
+.card__type p {
+    background-color: gray;
+    border-radius: 10px;
 }
